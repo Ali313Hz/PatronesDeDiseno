@@ -1,4 +1,5 @@
 package creacional;
 
-public class TaskFactory {
+public abstract class TaskFactory {
+    public abstract Task createTask(String description, int estimatedHours);
 }
